@@ -1,0 +1,13 @@
+.site-nav .nav-login {
+  color: #fff;
+  border-bottom: 2px solid var(--red);
+  padding: 9px 0 7px;
+}
+
+@media (max-width: 850px) {
+  .site-nav .nav-login {
+    padding: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    border-left: 3px solid var(--red);
+  }
+}
